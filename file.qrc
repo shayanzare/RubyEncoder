@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>file/1eee696f-1cfb-441a-940c-7425de87d029.png</file>
+        <file>file/badge-ruby-operators-stage1.png</file>
+        <file>file/ruby-flat-icn.png</file>
+    </qresource>
+</RCC>
