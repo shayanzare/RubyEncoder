@@ -48,6 +48,11 @@ Highlighter::Highlighter(QTextDocument *parent)
     rule.format = functionFormat;
     highlightingRules.append(rule);
 
+    puts.setForeground(Qt::red);
+    rule.pattern = QRegExp("puts");
+    rule.format = puts;
+    highlightingRules.append(rule);
+
     commentStartExpression = QRegExp("/\\*");
     commentEndExpression = QRegExp("\\*/");
 }
